@@ -18,7 +18,7 @@ Rivalyze was designed to help founders, startups, and product teams quickly unde
 
 ## 👥 Team Members
 
-- Joshitha Panyam
+- JOSHITHA PANYAM
 - ANGELIN ANTO
 - HARISH
 - GRACIA
