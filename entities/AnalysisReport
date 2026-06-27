@@ -1,0 +1,39 @@
+{
+  "name": "AnalysisReport",
+  "type": "object",
+  "properties": {
+    "product_idea": {
+      "type": "string",
+      "description": "User's product/service description"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "discovering",
+        "analyzing",
+        "synthesizing",
+        "complete",
+        "error"
+      ],
+      "default": "discovering"
+    },
+    "progress_message": {
+      "type": "string",
+      "description": "Current step description"
+    },
+    "competitors_discovered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of competitor names found"
+    },
+    "analysis_result": {
+      "type": "object",
+      "description": "Full JSON analysis output"
+    }
+  },
+  "required": [
+    "product_idea"
+  ]
+}
