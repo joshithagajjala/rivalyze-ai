@@ -145,7 +145,7 @@ Rivalyze
 
 ## Login Page
 
-![Login](screenshots/rivalyzer-signin.png)
+![Login](screenshots/rivalyer-signin.png)
 
 ---
 
